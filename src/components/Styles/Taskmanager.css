@@ -1,0 +1,41 @@
+.task-manager {
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.task-manager h2 {
+    font-size: 1.4rem;
+    color: #1976d2;
+    margin-bottom: 1rem;
+}
+
+.task-manager ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-manager li {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+.task-manager li:hover {
+    background-color: #e3f2fd; /* Light blue hover effect */
+}
+
+.task-manager li input[type="checkbox"] {
+    margin-right: 0.75rem;
+}
+
+.task-manager li.completed {
+    text-decoration: line-through;
+    color: #757575;
+}

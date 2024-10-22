@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1976d2; /* Primary color */
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #ffca28; /* Highlight color */
+}
+.custom {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+.custom li {
+  padding: 4px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.login {
+  background-color: red;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
